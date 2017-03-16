@@ -44,34 +44,39 @@ Partial Class Form3
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(16, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(89, 13)
+        Me.Label1.Size = New System.Drawing.Size(118, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Texto a introducir"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(15, 25)
+        Me.TextBox1.Location = New System.Drawing.Point(20, 31)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(132, 22)
         Me.TextBox1.TabIndex = 1
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(121, 9)
+        Me.ListBox1.ItemHeight = 16
+        Me.ListBox1.Location = New System.Drawing.Point(161, 11)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.ScrollAlwaysVisible = True
         Me.ListBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
-        Me.ListBox1.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox1.Size = New System.Drawing.Size(159, 116)
         Me.ListBox1.TabIndex = 2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(15, 51)
+        Me.Button1.Location = New System.Drawing.Point(19, 84)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Añadir"
         Me.Button1.UseVisualStyleBackColor = True
@@ -81,25 +86,28 @@ Partial Class Form3
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Al final", "Al principio", "En el lugar que toque"})
-        Me.ComboBox1.Location = New System.Drawing.Point(121, 110)
+        Me.ComboBox1.Location = New System.Drawing.Point(161, 135)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(160, 24)
         Me.ComboBox1.TabIndex = 4
         '
         'ButtonEliminar
         '
-        Me.ButtonEliminar.Location = New System.Drawing.Point(121, 138)
+        Me.ButtonEliminar.Location = New System.Drawing.Point(161, 170)
+        Me.ButtonEliminar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonEliminar.Name = "ButtonEliminar"
-        Me.ButtonEliminar.Size = New System.Drawing.Size(120, 23)
+        Me.ButtonEliminar.Size = New System.Drawing.Size(160, 28)
         Me.ButtonEliminar.TabIndex = 5
         Me.ButtonEliminar.Text = "Eliminar seleccionado"
         Me.ButtonEliminar.UseVisualStyleBackColor = True
         '
         'ButtonMaxMin
         '
-        Me.ButtonMaxMin.Location = New System.Drawing.Point(121, 167)
+        Me.ButtonMaxMin.Location = New System.Drawing.Point(161, 206)
+        Me.ButtonMaxMin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonMaxMin.Name = "ButtonMaxMin"
-        Me.ButtonMaxMin.Size = New System.Drawing.Size(120, 23)
+        Me.ButtonMaxMin.Size = New System.Drawing.Size(160, 28)
         Me.ButtonMaxMin.TabIndex = 6
         Me.ButtonMaxMin.Text = "Max, Min, y Media"
         Me.ButtonMaxMin.UseVisualStyleBackColor = True
@@ -108,10 +116,10 @@ Partial Class Form3
         '
         Me.RadioButtonNumerica.AutoSize = True
         Me.RadioButtonNumerica.Checked = True
-        Me.RadioButtonNumerica.Location = New System.Drawing.Point(21, 22)
-        Me.RadioButtonNumerica.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonNumerica.Location = New System.Drawing.Point(28, 27)
+        Me.RadioButtonNumerica.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButtonNumerica.Name = "RadioButtonNumerica"
-        Me.RadioButtonNumerica.Size = New System.Drawing.Size(70, 17)
+        Me.RadioButtonNumerica.Size = New System.Drawing.Size(89, 21)
         Me.RadioButtonNumerica.TabIndex = 7
         Me.RadioButtonNumerica.TabStop = True
         Me.RadioButtonNumerica.Text = "Numerica"
@@ -120,10 +128,10 @@ Partial Class Form3
         'RadioButtonAscii
         '
         Me.RadioButtonAscii.AutoSize = True
-        Me.RadioButtonAscii.Location = New System.Drawing.Point(21, 47)
-        Me.RadioButtonAscii.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonAscii.Location = New System.Drawing.Point(28, 58)
+        Me.RadioButtonAscii.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButtonAscii.Name = "RadioButtonAscii"
-        Me.RadioButtonAscii.Size = New System.Drawing.Size(52, 17)
+        Me.RadioButtonAscii.Size = New System.Drawing.Size(62, 21)
         Me.RadioButtonAscii.TabIndex = 8
         Me.RadioButtonAscii.Text = "ASCII"
         Me.RadioButtonAscii.UseVisualStyleBackColor = True
@@ -132,10 +140,10 @@ Partial Class Form3
         '
         Me.RadioButtonAsc.AutoSize = True
         Me.RadioButtonAsc.Checked = True
-        Me.RadioButtonAsc.Location = New System.Drawing.Point(20, 25)
-        Me.RadioButtonAsc.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonAsc.Location = New System.Drawing.Point(27, 31)
+        Me.RadioButtonAsc.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButtonAsc.Name = "RadioButtonAsc"
-        Me.RadioButtonAsc.Size = New System.Drawing.Size(82, 17)
+        Me.RadioButtonAsc.Size = New System.Drawing.Size(104, 21)
         Me.RadioButtonAsc.TabIndex = 9
         Me.RadioButtonAsc.TabStop = True
         Me.RadioButtonAsc.Text = "Ascendente"
@@ -144,10 +152,10 @@ Partial Class Form3
         'RadioButtonDes
         '
         Me.RadioButtonDes.AutoSize = True
-        Me.RadioButtonDes.Location = New System.Drawing.Point(20, 47)
-        Me.RadioButtonDes.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonDes.Location = New System.Drawing.Point(27, 58)
+        Me.RadioButtonDes.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RadioButtonDes.Name = "RadioButtonDes"
-        Me.RadioButtonDes.Size = New System.Drawing.Size(89, 17)
+        Me.RadioButtonDes.Size = New System.Drawing.Size(113, 21)
         Me.RadioButtonDes.TabIndex = 10
         Me.RadioButtonDes.Text = "Descendente"
         Me.RadioButtonDes.UseVisualStyleBackColor = True
@@ -156,11 +164,11 @@ Partial Class Form3
         '
         Me.GroupBox1.Controls.Add(Me.RadioButtonAscii)
         Me.GroupBox1.Controls.Add(Me.RadioButtonNumerica)
-        Me.GroupBox1.Location = New System.Drawing.Point(284, 10)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(379, 12)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(148, 81)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(197, 100)
         Me.GroupBox1.TabIndex = 13
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Tipo de ordenacion"
@@ -169,39 +177,40 @@ Partial Class Form3
         '
         Me.GroupBox2.Controls.Add(Me.RadioButtonAsc)
         Me.GroupBox2.Controls.Add(Me.RadioButtonDes)
-        Me.GroupBox2.Location = New System.Drawing.Point(284, 97)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Location = New System.Drawing.Point(379, 119)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox2.Size = New System.Drawing.Size(148, 81)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(197, 100)
         Me.GroupBox2.TabIndex = 14
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Orden"
         '
         'ButtonOrdenar
         '
-        Me.ButtonOrdenar.Location = New System.Drawing.Point(284, 183)
-        Me.ButtonOrdenar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonOrdenar.Location = New System.Drawing.Point(379, 225)
+        Me.ButtonOrdenar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ButtonOrdenar.Name = "ButtonOrdenar"
-        Me.ButtonOrdenar.Size = New System.Drawing.Size(148, 35)
+        Me.ButtonOrdenar.Size = New System.Drawing.Size(197, 43)
         Me.ButtonOrdenar.TabIndex = 15
         Me.ButtonOrdenar.Text = "Ordenar"
         Me.ButtonOrdenar.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(3, 81)
+        Me.Button2.Location = New System.Drawing.Point(3, 131)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 23)
+        Me.Button2.Size = New System.Drawing.Size(149, 28)
         Me.Button2.TabIndex = 16
         Me.Button2.Text = "Añadir preguntando"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Form1
+        'Form3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(553, 407)
+        Me.ClientSize = New System.Drawing.Size(737, 501)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ButtonOrdenar)
         Me.Controls.Add(Me.ButtonMaxMin)
@@ -213,7 +222,8 @@ Partial Class Form3
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Name = "Form1"
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Name = "Form3"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

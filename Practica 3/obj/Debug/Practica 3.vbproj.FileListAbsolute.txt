@@ -31,3 +31,7 @@ C:\Users\cfgs2inf02\Desktop\Practica 3 2\Practica 3\obj\Debug\Practica 3.vbprojR
 C:\Users\cfgs2inf02\Desktop\Practica 3 2\Practica 3\obj\Debug\Practica_3.Form1.resources
 C:\Users\cfgs2inf02\Desktop\Practica 3 2\Practica 3\obj\Debug\Practica_3.Resources.resources
 C:\Users\cfgs2inf02\Desktop\Practica 3 2\Practica 3\obj\Debug\Practica 3.vbproj.GenerateResource.Cache
+C:\Users\morga\Desktop\Actividades VB\Practica 3\Practica 3\bin\Debug\Practica 3.exe.config
+C:\Users\morga\Desktop\Actividades VB\Practica 3\Practica 3\obj\Debug\Practica 3.exe
+C:\Users\morga\Desktop\Actividades VB\Practica 3\Practica 3\obj\Debug\Practica 3.xml
+C:\Users\morga\Desktop\Actividades VB\Practica 3\Practica 3\obj\Debug\Practica 3.pdb
